@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Video.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div style="position: absolute; overflow-y: hidden; z-index: 1; margin-left: 180px; height: 500px; width: 0; background: blue;" class="div">
+     <img src="" class="img" alt="">
+     <script>
+         img = document.querySelector('.img')
+         img.srcObject = 'v.png';
+     </script>
+    </div>
+<video id="video"  autoplay></video>
+<button id="start-record">Start Recording</button>
+<button id="stop-record">Stop Recording</button>
+<a id="download-video" download="test.webm">Download Video</a> 
+<button style="text-align: center; margin-left: 500px;" id="start-camera">Start Camera</button>
+<div style="">
+<button class="btns" style=" margin-left: 450px; padding: 16px 30px; border: none; background: blue;">Start audio</button>
+<button class="btnn" style="padding: 16px 30px; border: none; background: lightblue;">Start video</button>
+  
+
+
+</div>
+
+
+<script src="video.js"></script>
+</body>
+</html>

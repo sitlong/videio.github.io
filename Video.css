@@ -1,0 +1,55 @@
+body{
+    background: linear-gradient(to right, white,black);
+  overflow: hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#video{
+    border-radius: 10px;
+    height: 580px;
+    margin-left: 180px;
+    /* width: 350px; */
+grid-template-columns: ;
+}
+
+#start-record,
+#stop-record{
+    position: fixed;
+    top: 520px;
+    padding: 10px 30px;
+    border: none;
+    /* left: 400px; */
+}
+
+#start-camera{
+    padding: 10px 30px;
+    border: none;
+}
+
+#start-record{
+    background: green;
+    left: 380px;
+}
+
+#stop-record{
+    position: absolute;
+    background: red;
+    left: 600px;
+}
+
+/* #start-camera{
+    position: a;
+    left: 460px;
+} */
+
+#download-video{
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+  left: 960px;
+  top: 520px;
+}
